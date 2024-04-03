@@ -15,6 +15,10 @@ nav {
   background-size: cover;
 }
 
+#landing a {
+  background-color: black;
+}
+
 span {
   color: #ff073a;
 }
@@ -34,4 +38,8 @@ span {
 #footer img {
   height: 30px;
   width: 30px;
+}
+
+button {
+  background-color: black;
 }
