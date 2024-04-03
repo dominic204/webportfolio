@@ -4,6 +4,9 @@ html {
 * {
   font-family: "Oswald", sans-serif;
 }
+nav {
+  background-color: black !important;
+}
 #landing {
   font-family: "Oswald", sans-serif;
   background: linear-gradient(rgba(54, 15, 15, 0.59), black),
@@ -22,6 +25,10 @@ span {
 #tools img {
   height: 100px;
   width: 100px;
+}
+
+#footer {
+  background-color: black;
 }
 
 #footer img {
