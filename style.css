@@ -6,12 +6,19 @@ html {
 }
 #landing {
   font-family: "Oswald", sans-serif;
-  background: linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
-    url("https://scontent.fceb2-2.fna.fbcdn.net/v/t1.6435-9/200273276_336172357887257_4300947859333969872_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=lC0B0YlKwk0AX9KGAo_&_nc_ht=scontent.fceb2-2.fna&oh=00_AfD51ZFa0yf1P2uREkxmKCiG6mKwoYvIWjEjaJasqt8Twg&oe=663487EB");
+  background: linear-gradient(rgba(54, 15, 15, 0.59), black),
+    url("https://media.istockphoto.com/id/1311994776/vector/abstract-technology-binary-code-dark-red-background-cyber-attack-ransomware-malware.jpg?s=612x612&w=0&k=20&c=ZmpIDPTtzV-nQNtD4rM-9TBgHzhFQvsKMG3j5I6R-qI=");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+span {
+  color: #ff073a;
+}
+
+#tools {
+  background-color: black;
+}
 #tools img {
   height: 100px;
   width: 100px;
