@@ -12,7 +12,7 @@ span {
 
 button {
   background-color: black;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 button:hover {
@@ -27,23 +27,20 @@ nav {
 }
 
 .nav-link {
-  transition: all 0.2s;
+  transition: all 0.1s;
   position: relative;
 }
 
 .nav-link::after {
   content: "";
   opacity: 0;
-  transition: all 0.2s;
+  transition: all 0.1s;
   height: 2px;
   width: 100%;
   background-color: #ff073a;
   position: absolute;
   bottom: 0;
   left: 0;
-}
-
-.nav-link:hover {
 }
 
 .nav-link:hover::after {
@@ -62,6 +59,12 @@ nav {
 
 #landing a {
   background-color: black;
+  transition: 0.1s;
+}
+
+a:hover {
+  transform: scale(1.1);
+  z-index: 2;
 }
 
 /* ============================================================================== */
@@ -75,7 +78,7 @@ nav {
 }
 
 figure {
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 figure:hover {
@@ -86,7 +89,7 @@ figure:hover {
 /* ============================================================================== */
 
 .card {
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 .card:hover {
@@ -98,7 +101,7 @@ figure:hover {
 
 /* ============================================================================== */
 #footer img {
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 #footer img:hover {
